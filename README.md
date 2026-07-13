@@ -43,14 +43,14 @@ Get-ChildItem -Recurse -Filter *.ymap | ForEach-Object {
 
 ### Download (easiest)
 
-Download the latest `ymap2xml.exe` from the [Releases](https://github.com/dieguinxo/ymap2xml/releases) page. No installation required.
+Download the latest `ymap2xml.exe` from the [Releases](https://github.com/dieguinxos/ymap2xml/releases) page. No installation required.
 
 ### Build from source
 
 Requires [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
 
 ```bash
-git clone https://github.com/dieguinxo/ymap2xml.git
+git clone https://github.com/dieguinxos/ymap2xml.git
 cd ymap2xml
 dotnet publish -c Release -r win-x64 --self-contained false -o dist
 ```
